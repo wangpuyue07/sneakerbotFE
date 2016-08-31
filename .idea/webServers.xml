@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="82cc8b98-bfa7-44f8-b6c2-57304f3e1a25" name="wpy" url="http://47.90.37.119">
+        <fileTransfer host="47.90.37.119" port="22" rootFolder="/root/guysInNZ" accessType="SFTP" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
