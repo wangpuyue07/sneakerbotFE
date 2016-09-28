@@ -1,0 +1,5 @@
+<span class="label label-tags"
+      data-ng-repeat="tag in vm.feedback.tags">{{ tag }}</span>
+<span ng-if="vm.feedback.appliesTo.length == 0" class="label label-applies-to">All SKUs</span>
+<span ng-if="vm.feedback.appliesTo.length > 0" class="label label-applies-to"
+      data-ng-repeat="item in vm.feedback.appliesTo">{{ item }}</span>

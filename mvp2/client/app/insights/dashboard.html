@@ -1,0 +1,42 @@
+<div class="pull-right insights-header" uib-popover="Coming soon!" popover-placement="top" popover-trigger="mouseenter">
+    <a href="#">
+        <i class="fa fa-bar-chart" aria-hidden="true"></i> All Insights >
+    </a>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Top staff contributers
+        <small></small>
+    </div>
+    <div class="panel-body">
+        <div class="chart-container">
+            <canvas id="feedbackByStore" class="chart chart-bar" chart-data="vm.topStaff.data"
+                    chart-labels="vm.topStaff.labels"></canvas>
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Top contributing stores
+        <small></small>
+    </div>
+    <div class="panel-body">
+        <div class="chart-container">
+            <canvas id="feedbackByStore" class="chart chart-bar" chart-data="vm.topStores.data"
+                    chart-labels="vm.topStores.labels"></canvas>
+
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="panel panel-default">-->
+<!--<div class="panel-heading">Feedback by Category <small>7 days</small></div>-->
+<!--<div class="panel-body">-->
+<!--<div class="chart-container">-->
+
+<!--<canvas id="feedbackByTag" class="chart chart-bar" chart-data="vm.stats.feedbackByTag.data" chart-labels="vm.stats.feedbackByTag.labels"></canvas>-->
+
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->

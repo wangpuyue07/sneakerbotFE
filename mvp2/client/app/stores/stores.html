@@ -1,0 +1,41 @@
+<h1>Stores</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Short Name</th>
+            <th>Email</th>
+            <th>Added</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-ng-repeat="store in vm.list">
+            <td data-ng-show="!vm.rows[store.id].edit">
+                {{ store.names[0].text }}
+            </td>
+            <td data-ng-show="vm.rows[store.id].edit">
+                <input class="form-control" data-ng-model="store.names[0].text">
+            </td>
+
+
+            <td data-ng-show="!vm.rows[store.id].edit">
+                {{ store.names[1].text }}
+            </td>
+            <td data-ng-show="vm.rows[store.id].edit">
+                <input class="form-control" data-ng-model="store.names[1].text">
+            </td>
+
+
+            <td>{{ store.email }}</td>
+            <td>{{ store.createdAt }}</td>
+            <td data-ng-show="!vm.rows[store.id].edit">
+                <a href="#" data-ng-click="vm.rows[store.id].edit=true">Edit</a>
+            </td>
+            <td data-ng-show="vm.rows[store.id].edit">
+                <a href="#" data-ng-click="vm.updateStore(store);vm.rows[store.id].edit=false">Save</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

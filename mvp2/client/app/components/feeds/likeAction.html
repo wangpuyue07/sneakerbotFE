@@ -1,0 +1,11 @@
+<div class="like-action" data-ng-class="vm.likedByYou() ? 'active' : ''">
+    <a href="#" ng-if="!vm.likedByYou()" data-ng-click="vm.likeFeedItem()">
+        <span class="text">Vote {{ vm.activity.likes.length > 0 ? ('(' + vm.activity.likes.length + ')')  : '' }}</span>
+        <i class="fa fa-thumbs-o-up" title="Quality post"></i>
+    </a>
+    <a href="#" ng-if="vm.likedByYou()" data-ng-click="vm.unLikeFeedItem()" uib-popover="You voted!"
+       popover-trigger="mouseenter">
+        <span class="text">{{ vm.activity.likes.length  || '0' }} vote<span ng-if="vm.activity.likes.length>1">s</span> </span>
+        <i class="fa fa-thumbs-up" style="background-size: 15px;" title="Vote"></i>
+    </a>
+</div>

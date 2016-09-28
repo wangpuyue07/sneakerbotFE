@@ -1,0 +1,1 @@
+ALTER TABLE feedbacks ADD `appliesTo` varchar(300) DEFAULT NULL;

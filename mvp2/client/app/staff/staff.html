@@ -1,0 +1,32 @@
+<h1>Staff</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Store</th>
+            <th>Created</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-ng-repeat="member in staff.list">
+            <td>{{ member.names[0].text }}</td>
+            <td>{{ staff.getStore(member.storeId).names[0].text }}</td>
+            <td>{{ member.createdAt }}</td>
+            <td>
+                <button class="btn btn-default">Edit</button>
+                <button class="btn btn-default">Delete</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="text" class="form-control" id="staffName" placeholder="staff member name" data-ng-model="staff.newMember.name"></td>
+            <td>
+                {{ staff.storeName }}
+            </td>
+            <td></td>
+            <td><button data-ng-click="staff.createStaff()" class="btn btn-default">Add</button></td>
+        </tr>
+    </tbody>
+</table>

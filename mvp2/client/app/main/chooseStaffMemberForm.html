@@ -1,0 +1,31 @@
+<div class="container" style="width: 100%;">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="page-header">
+                <h1>Who are you?</h1>
+            </div>
+
+            <div class="staff-selector" ng-show="vm.staff.length > 0">
+                <p><strong>Choose profile:</strong></p>
+                <ul class="list-unstyled list-inline">
+                    <li data-ng-repeat="staff in vm.staff | orderBy:'names[0].text'">
+                        <a href="#" data-ng-click="vm.setStaffMember(staff)"><span class="mention">
+                            <i class="glyphicon glyphicon-user"></i><span class="glyphicon"></span>{{ staff.names[0].text }}
+                            </span></a>
+                    </li>
+                </ul>
+                <hr>
+                <p class="text-muted">OR</p>
+                <p><strong> Create a new one:</strong></p>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="fullName">Your Full Name</label>
+                    <input class="form-control" type="text" id="fullName" data-ng-model="vm.fullName"/>
+                </div>
+                <button type="submit" data-ng-click="vm.createStaff()" class="btn btn-default pull-right">Go</button>
+            </form>
+        </div>
+    </div>
+    <div style="height: 10px"></div>
+</div>

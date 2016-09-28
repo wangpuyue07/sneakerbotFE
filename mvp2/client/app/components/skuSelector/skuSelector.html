@@ -1,0 +1,18 @@
+<div class="fa-checkboxes" >
+    <input  class="faChkRnd" type="checkbox" ng-checked="vm.allSkus" data-ng-click="vm.allSkus=!vm.allSkus">
+    <label>All SKU's</label>
+</div>
+
+<p data-ng-show="!vm.allSkus" class="help-block">Choose all SKU's and or Colours and Sizes which apply.</p>
+<table data-ng-show="!vm.allSkus" class="table select-table">
+    <tbody>
+    <tr ng-repeat="item in vm.variations">
+        <td data-ng-class="vm.isSelected(item.sku) ? 'selected' : ''">
+            <a href="#" data-ng-click="vm.toggle('sku', item.sku)">{{item.sku}}</a></td>
+        <td data-ng-class="vm.areSelected(item.sku, item.colour) ? 'selected' : ''">
+            <a href="#" data-ng-click="vm.toggle('colour', item.colour)">{{item.colour}}</a></td>
+        <td data-ng-class="vm.areSelected(item.sku, item.size) ? 'selected' : ''">
+            <a href="#" data-ng-click="vm.toggle('size', item.size)">{{item.size}}</a></td>
+    </tr>
+    </tbody>
+</table>

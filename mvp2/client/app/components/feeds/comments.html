@@ -1,0 +1,40 @@
+<div class="comments">
+    <!--<div class="row">-->
+    <!--<div class="col-sm-12">-->
+    <!--<h4> {{ vm.comments.length }} Comments</h4>-->
+    <!--</div>-->
+    <!--</div>-->
+    <div id="{{ comment.id }}" class="comment row" data-ng-repeat="comment in vm.comments" ng-class="{active : comment.id == vm.activityReferenceId, cleared : vm.clearHighlights }">
+        <div class="col-sm-12">
+            <thumbnail image="comment.creator.image" width="25" height="25"></thumbnail>
+            <div class="text">
+                <mention is-subject="true" staff-member="comment.subject"></mention>
+                <span data-ng-bind-html="vm.hydrateComment(comment)"></span>
+                <small am-time-ago="comment.createdAt"></small>
+                <store-mention store="comment.store"></store-mention>
+            </div>
+            <div class="relative" data-ng-click="vm.deleteComment(comment.id, $index)">
+                <a href="#">
+                    <i data-ng-if="comment.subject.id == vm.getStaffMember().id" class="fa fa-times"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="commentsForm row">
+        <div class="col-sm-12">
+            <form name="commentForm">
+                <div class="form-group">
+
+                    <textarea mentio mentio-typed-text="typedTerm" mentio-id="'comment'"
+                              mentio-items="vm.staff | filter:names[0].text:typedTerm"
+                              data-ng-model="vm.newComment" placeholder="Add comment..."
+                              data-ng-disabled="vm.lockCommentForm" class="form-control" type="text"
+                              mentio-select="vm.getMentionText(item)"
+                              ng-keydown="vm.trySubmit($event)"
+                              rows="2"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

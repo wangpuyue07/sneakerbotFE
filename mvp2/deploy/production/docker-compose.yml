@@ -1,0 +1,32 @@
+# PRODUCTION
+node:
+    image: seekstock/web:latest
+    links:
+        - redis
+        - mysql
+    ports:
+        - "80:3000"
+    environment:
+        - HOST=http://seekstock.nz
+        - GOOGLE_ID=915446492590-0ipgkrm608i0vgp2bjh1t5t70fvjdu2d.apps.googleusercontent.com
+        - GOOGLE_SECRET=EZiLnB4T-ftAE1d2ob5RTR_y
+        - HANDLE_EVENTS=true
+        - FEATURE_SIGIN_OAUTH=true
+redis:
+    image: redis
+    ports:
+        - "6379:6379"
+mysql:
+    image: mysql
+    ports:
+        - "3306:3306"
+    environment:
+        - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+        - MYSQL_DATABASE=seekstock
+    volumes:
+        - /data/mysql:/var/lib/mysql
+daily_mail:
+    image: seekstock/daily_mail:latest
+    environment:
+        - BATCHMAN_CRON_PATTERN=0 0 10 * * *
+        - API_HOST=http://test.seekstock.nz/

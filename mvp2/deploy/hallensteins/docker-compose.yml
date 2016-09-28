@@ -1,0 +1,36 @@
+# PRODUCTION
+nginx:
+    image: nginx:stable
+    ports:
+        - "80:80"
+        - "443:443"
+    volumes:
+        - /config/nginx:/etc/nginx/conf.d
+        - /config/ssl:/etc/nginx/ssl
+    links:
+        - node
+node:
+    image: seekstock/web:latest
+    links:
+        - redis
+        - mysql
+    ports:
+        - "3000:3000"
+    environment:
+        - HOST=https://hallensteins.seekstock.nz
+        - GOOGLE_ID=915446492590-0ipgkrm608i0vgp2bjh1t5t70fvjdu2d.apps.googleusercontent.com
+        - GOOGLE_SECRET=EZiLnB4T-ftAE1d2ob5RTR_y
+        - HANDLE_EVENTS=true
+redis:
+    image: redis
+    ports:
+        - "6379:6379"
+mysql:
+    image: mysql
+    ports:
+        - "3306:3306"
+    environment:
+        - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+        - MYSQL_DATABASE=seekstock
+    volumes:
+        - /data/mysql:/var/lib/mysql

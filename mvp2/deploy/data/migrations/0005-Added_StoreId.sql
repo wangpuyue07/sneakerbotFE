@@ -1,0 +1,10 @@
+START TRANSACTION;
+ALTER TABLE activities add `storeId` varchar(255) DEFAULT NULL;
+UPDATE activities set storeId = '4db85910-26d7-11e6-b8bb-0f000f612eed' where store = 'brooke';
+UPDATE activities set storeId = 'c9b33c20-2b9f-11e6-a1aa-898f523113ee' where store = 'melbourne';
+UPDATE activities set storeId = '04f93750-1fd7-11e6-b721-4ca5dee69f11' where store = 'newmarket';
+UPDATE activities set storeId = '8e16c190-22e5-11e6-bea4-cb1b501c230b' where store = 'will';
+UPDATE activities set storeId = '68972a20-1e46-11e6-b094-48595aa6d1d2' where store = 'seekstock';
+UPDATE activities set storeId = '217e66c0-1ed8-11e6-90d8-e49f43887ac8' where store = 'wellington';
+ALTER TABLE activities drop `store`;
+COMMIT;

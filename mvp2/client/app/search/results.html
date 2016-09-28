@@ -1,0 +1,23 @@
+<div class="search-results-container" data-example-id="media-alignment">
+    <div class="media" data-ng-repeat="item in vm.search.results">
+        <div class="media-left">
+            <a ui-sref="product({ sku : item.sku })">
+                <ss-image src="item.variations[0].image" width="'60'"></ss-image>
+            </a></div>
+
+        <div class="media-body"><h4 class="media-heading">
+            <a ui-sref="product({ sku : item.sku })">
+                {{ item.description }}</a></h4>
+            <p>{{ item.sku }}</p>
+            <span class="label label-mild"
+                  data-ng-repeat="variation in item.variations">{{ variation.description }}</span>
+        </div>
+        <div class="media-right">
+            <div class="btn-group pull-right">
+                <button ng-if="vm.featureService.isEnabled('feedback')" class="btn btn-seekstock" href="#" data-ng-click="vm.openFeedback(item)">Give Feedback</button>
+                <button ng-if="vm.featureService.isEnabled('request')" class="btn btn-seekstock" href="#" data-ng-click="vm.openRequest(item)">Request</button>
+                <button  class="btn btn-seekstock" href="#" data-ng-click="vm.openRequestFeedback(item)">Request Feedback</button>
+            </div>
+        </div>
+    </div>
+</div>

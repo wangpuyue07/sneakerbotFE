@@ -1,0 +1,123 @@
+<a href="/">&lt; Back to feed</a>
+
+<h3>{{ vm.product.description }}
+    <small>{{ vm.product.sku }}</small>
+</h3>
+<p> {{ vm.product.category }}</p>
+<div class="pull-right">
+    <button ng-if="vm.featureService.isEnabled('feedback')" class="btn btn-seekstock" href="#" data-ng-click="vm.openFeedback(vm.product)">Give Feedback</button>
+    <button ng-if="vm.featureService.isEnabled('request')" class="btn btn-seekstock" href="#" data-ng-click="vm.openRequest(vm.product)">Request</button>
+</div>
+
+<div class="row product">
+    <div class="col-xs-2">
+        <ss-image src="vm.product.variations[0].image" width="'150'" class="'media-object'"></ss-image>
+    </div>
+    <div class="col-xs-7">
+        <table class="table" style="font-size:11px">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Colour</th>
+                    <th>Size</th>
+                    <th>Fit</th>
+                    <th>Brand</th>
+                    <th>RRP</th>
+                </tr>
+            </thead>
+            <tr data-ng-repeat="variation in vm.product.variations | orderBy:sortSize(variation.size)">
+                <td>{{ variation.sku }}</td>
+                <td>{{ variation.colour }}</td>
+                <td>{{ variation.size }}</td>
+                <td>{{ variation.fit }}</td>
+                <td>{{ variation.brand }}</td>
+                <td>{{ variation.rrp || '-' }}</td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-xs-2">
+
+    </div>
+
+
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+        <div class="panel panel-default news" data-ng-repeat="activity in vm.activities">
+            <div class="panel-body">
+                <div ng-switch="activity.action">
+                    <div ng-switch-when="createdStaffFeedback">
+
+                        <!--data-ng-class="activity.read ? '' : 'unread'"-->
+                        <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Feedback</h4>
+                                <feedback-labels feedback="activity.body"></feedback-labels>
+                                <p class="feed-back">
+                                    <mention is-subject="true" staff-member="activity.subject"></mention>
+                                    {{ activity.body.description }} <br/>
+                                    <small class="ago" am-time-ago="activity.createdAt"></small>
+                                    <store-mention store="activity.store"></store-mention>
+                                </p>
+                            </div>
+                            <div class="media-right">
+                                <like-action activity="activity" spotId="activity.body.id"></like-action>
+                            </div>
+                        </div>
+                        <comments object-id="activity.body.id" object-type="'feedback'" recipient-id="activity.subject.id"></comments>
+                    </div>
+                    <div ng-switch-when="createdStaffRequest">
+                        <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Product Request</h4>
+                                <table class="table" style="font-size:11px">
+                                    <tr>
+                                        <td>Product Type</td>
+                                        <td>{{ activity.body.productType }}</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Size</td>
+                                        <td>{{ activity.body.size }}</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Colour</td>
+                                        <td>{{ activity.body.colour }}</td>
+                                    </tr>
+                                </table>
+                                <p class="feed-back">
+                                    <mention is-subject="true" staff-member="activity.subject"></mention>
+                                    {{ activity.body.description }} <br/>
+                                    <small class="ago" am-time-ago="activity.createdAt"></small>
+                                    <store-mention store="activity.store"></store-mention>
+                                </p>
+                                <p>
+                                    <span class="label label-tags"
+                                          data-ng-repeat="tag in activity.body.tags">{{ tag }}</span>
+                                </p>
+
+                            </div>
+                            <div class="media-right">
+                                <like-action activity="activity" spotId="activity.body.id"></like-action>
+                            </div>
+                        </div>
+                        <comments object-id="activity.body.id" object-type="'feedback'"
+                                  recipient-id="activity.subject.id"></comments>
+                    </div>
+                    <div ng-switch-default>
+                        {{ activity }}
+                        [ missing template for {{ activity.action }} ]
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-4">
+    </div>
+</div>
+

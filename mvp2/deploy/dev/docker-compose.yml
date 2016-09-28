@@ -1,0 +1,36 @@
+# DEV
+#nginx:
+#    image: nginx:stable
+#    ports:
+#        - "80:80"
+#        - "443:443"
+#    volumes:
+#        - /Users/rjarmstrong/data/nginx/dev:/etc/nginx/conf.d
+#        - /Users/rjarmstrong/data/nginx/certs:/etc/nginx/certs
+#    links:
+#        - node
+#node:
+#    image: seekstock/web:latest
+#    links:
+#        - redis
+#        - mysql
+#    ports:
+#        - "3000:3000"
+#    environment:
+#        - HOST=https://mvp2.dev.seekstock.nz
+#        - GOOGLE_ID=915446492590-0ipgkrm608i0vgp2bjh1t5t70fvjdu2d.apps.googleusercontent.com
+#        - GOOGLE_SECRET=EZiLnB4T-ftAE1d2ob5RTR_y
+#        - HANDLE_EVENTS=true
+redis:
+    image: redis
+    ports:
+        - "6381:6379"
+mysql:
+    image: mysql
+    ports:
+        - "3308:3306"
+    environment:
+        - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+        - MYSQL_DATABASE=seekstock
+    volumes:
+        - /Users/rjarmstrong/data/mysql/dev:/usr/local/mysql

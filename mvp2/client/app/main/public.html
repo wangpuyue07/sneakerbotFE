@@ -1,0 +1,44 @@
+<style type="text/css">
+    html, body {
+        background: url(assets/images/background.png) no-repeat center center fixed;
+        -webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover; /* Mozilla*/
+        -o-background-size: cover; /* Opera*/
+        background-size: cover; /* Generic*/
+    }
+
+    section {
+        width: 350px;
+        text-align: center;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        position: absolute;
+        left: 50%;
+        top: 40%;
+    }
+
+    #tagline {
+        position: relative;
+        height: 46px;
+    }
+
+    #tagline img {
+        margin-top: -35px;
+    }
+
+</style>
+
+<section>
+    <div id="logo"><img src="assets/images/logo_blu_grycle_trans.png" alt="Seek Stock" width="250"></div>
+    <div id="tagline"><img src="assets/images/tagline.png" alt="Seek Stock" width="350"></div>
+
+    <div id="classic" data-ng-if="vm.isEnabled('feature_signin_classic')">
+        <classic-signin></classic-signin>
+    </div>
+
+    <div id="oauth" data-ng-if="vm.isEnabled('feature_signin_oauth')">
+        <oauth-buttons></oauth-buttons>
+    </div>
+
+
+</section>

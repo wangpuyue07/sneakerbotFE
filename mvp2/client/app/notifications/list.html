@@ -1,0 +1,55 @@
+<a href="/">&lt; Back to feed</a>
+
+<h3>Notifications</h3>
+
+<div class="row" ng-show="vm.getNotifications().length == 0">
+    <div class="col-xs-8">
+        <div class="jumbotron">
+            <h2>Not given any engaging feedback yet?</h2>
+            <p>Try giving feedback on products which have known issues to get more responses.</p>
+        </div>
+    </div>
+</div>
+
+<div data-ng-repeat="notification in vm.getNotifications()" class="notifications">
+    <div ng-switch="notification.notificationType">
+        <div ng-switch-when="liked">
+            <div class="media" data-ng-class="notification.read ? '' : 'new'">
+                <div class="media-body">
+                    <p>
+                        Someone voted for your feedback
+                        <a ui-sref="product({ sku : notification.activity.object.sku })">{{ notification.activity.object.description}} </a>
+                    </p>
+                    <small class="ago" am-time-ago="notification.createdAt"></small>
+                    <store-mention store="notification.activity.store"></store-mention>
+                </div>
+            </div>
+        </div>
+        <div ng-switch-when="commented">
+            <div class="media" data-ng-class="notification.read ? '' : 'new'">
+                <div class="media-body">
+                    <p>
+                        <mention staff-member="notification.activity.subject"></mention>
+                        commented for your <a ng-href="/products/{{ notification.activity.object.sku }}?activityReferenceId={{ notification.activity.id }}">feedback</a>
+                    </p>
+                    <small class="ago" am-time-ago="notification.createdAt"></small>
+                    <store-mention store="notification.activity.store"></store-mention>
+                </div>
+            </div>
+        </div>
+
+        <div ng-switch-when="mentioned">
+            <div class="media" data-ng-class="notification.read ? '' : 'new'">
+                <div class="media-body">
+                    <p>
+                        <mention staff-member="notification.activity.subject"></mention>
+                        mentioned you in a <a ng-href="/products/{{ notification.activity.object.sku }}?activityReferenceId={{ notification.activity.id }}">comment</a>
+                    </p>
+                    <small class="ago" am-time-ago="notification.createdAt"></small>
+                    <store-mention store="notification.activity.store"></store-mention>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

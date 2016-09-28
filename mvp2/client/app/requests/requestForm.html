@@ -1,0 +1,98 @@
+<div class="container" style="width: 100%;">
+    <div class="row">
+        <div class="col-xs-12">
+
+            <!-->
+
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <ss-image src="vm.product.variations[0].image" width="'90'" class="'media-object'"></ss-image>
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Request</h4>
+                    <p><strong><a ui-sref="product({ sku : vm.product.sku })">{{vm.product.description}} </a></strong>
+                        <small>{{ vm.product.sku }}</small>
+                    </p>
+
+                    <hr/>
+
+                    <form class="form-horizontal">
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-3" for="customerName">Customer</label>
+                            <div class="col-sm-9">
+                            <input data-ng-model="vm.request.customerName" type="text" class="form-control" id="customerName" placeholder="Customer Name"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-3" for="customerPhone">Phone</label>
+                            <div class="col-sm-9">
+                            <input data-ng-model="vm.request.customerPhone" type="text" class="form-control" id="customerPhone" placeholder="Customer phone"></div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-3" for="productType">Product Type</label>
+                            <div class="col-sm-9">
+                                <select id="productType" class="form-control"
+                                        ng-options="productType.name for productType in vm.productTypes track by productType.id"
+                                        ng-model="vm.selectedProductType">
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-3" for="colour">Colour</label>
+                            <div class="col-sm-9">
+                                <select id="colour" class="form-control"
+                                        ng-options="colour.name for colour in vm.colours track by colour.id"
+                                        ng-model="vm.selectedColour">
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-3" for="size">Size</label>
+                            <div class="col-sm-9">
+                                <select id="size" class="form-control"
+                                        ng-options="size.name for size in vm.sizes track by size.id"
+                                        ng-model="vm.selectedSize">
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-3" for="size">Request Expiry</label>
+                            <div class="col-sm-9">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" uib-datepicker-popup ng-model="vm.request.expiry"
+                                           is-open="vm.dataPopupOpen" datepicker-options="vm.dateOptions" ng-required="true"
+                                           close-text="Close" required>
+                        <span class="input-group-addon" ng-click="vm.dataPopupOpen=true" style="cursor: pointer"><i
+                                class="glyphicon glyphicon-calendar"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-3" for="description">Description:</label>
+                            <div class="col-sm-9">
+                    <textarea data-ng-model="vm.request.description" id="description" class="form-control"
+                              rows="3"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" data-ng-click="vm.createRequest()" class="btn btn-seekstock pull-right">Submit
+                        </button>
+                    </form>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div style="height: 10px"></div>
+</div>
+</div>

@@ -1,0 +1,5 @@
+<span class="mention">
+<i class="glyphicon glyphicon-user"></i>
+<a ng-if="!vm.isSubject" class="mention" href="#" title="{{ vm.fullName }}">@{{ vm.staffMember.slug }}</a>
+<a ng-if="vm.isSubject" class="mention isSubject" href="#" title="{{ vm.fullName }}">{{ vm.staffMember.slug }}:</a>
+</span>

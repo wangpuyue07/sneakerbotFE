@@ -1,0 +1,50 @@
+<div class="navbar navbar-default navbar-static-top main-nav-bar" ng-controller="NavbarController">
+    <div class="">
+        <div class="navbar-header">
+            <a href="/"><img height="43px" src="assets/images/SEEKSTOCK_LOGO_BLUE_WIDE.png" alt="Seek Stock"
+                             class="visible-md visible-lg"></a>
+            <a href="/"><img height="43px" src="assets/images/SEEKSTOCK_ICON_BLUE_.png" alt="Seek Stock"
+                             class="visible-xs visible-sm"></a>
+        </div>
+        <div id="navbar-main">
+
+            <search-box ng-if="nav.isLoggedIn()" css-class="'search-box'"></search-box>
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <li class="inbox">
+                    <a href="#" ui-sref="notifications">
+                        <span class="badge" data-ng-show="nav.getUnreadCount()>0">{{ nav.getUnreadCount() }}</span>
+                        <i class="fa fa-inbox" aria-hidden="true"></i></a></li>
+
+                <li ng-hide="nav.isLoggedIn()" ui-sref-active="active"><a href="#" data-ng-click="nav.signIn()"><i
+                        class="fa fa-google-plus"></i> Sign in</a></li>
+
+                <li ng-show="nav.isLoggedIn()">
+                    <a href="#" data-ng-click="nav.openMemberSelector()">
+                        <span class="glyphicon glyphicon-user"></span>
+                        {{ nav.getStaffMember().names[0].text || 'Choose yourself...' }}
+                    </a>
+                </li>
+
+                <li class="dropdown" ng-show="nav.isLoggedIn()">
+                    <a href="#" class="dropdown-toggle main-drop-down store-menu" data-toggle="dropdown" role="button">
+                        {{ nav.getCurrentUser().email }}
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" ui-sref="staff">Staff</a></li>
+                        <li><a href="#" ui-sref="stores">Stores</a></li>
+                        <li><a href="#" ui-sref="snap-ins">Snap-ins</a></li>
+                        <li><a href="#">Upload CSV</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a data-ng-click="nav.signOut()"><span
+                                class="glyphicon glyphicon-log-out"></span>Sign-out</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+</div>
