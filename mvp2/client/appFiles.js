@@ -27,11 +27,10 @@ exports.seekstock = exports.external.concat([
     'app/**/*.js',
     'app/**/*.spec.js'
 ].map(function(file){ return root + file; }));
-
 exports.testing = exports.external.concat(
-  //  [ 'test/helpers/**/*.module.js', 'test/helpers/**/*.service.js' ],
+  //  [ 'test/helpers/**/*.module.js', 'test/helpers/!**/!*.service.js' ],
     //exports.templates,
-    [ root + 'app/**/*.spec.js' ]
+    [root + 'app/**/*.spec.js']
 );
 
 // exports.testingExclusions = [

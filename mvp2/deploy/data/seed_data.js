@@ -12,3 +12,4 @@ var sql = fs.readFileSync(__dirname + '/' + path, { encoding: 'utf-8'});
 client.db.query(sql).then(res => {
     console.log('SEEDING COMPLETE');
 });
+

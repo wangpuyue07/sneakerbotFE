@@ -33,7 +33,7 @@
     </div>
 </div>
 
-<!--
+
 <div class="row" ng-show="vm.isCompletelyEmpty() && vm.firstLoad && vm.activities.length == 0">
     <div class="col-xs-8">
         <div class="jumbotron">
@@ -53,376 +53,97 @@
         </div>
     </div>
 </div>
--->
+
 
 
 <div class="row">
     <div class="col-xs-8">
-        <div class="panel panel-default news">
+        <div class="panel panel-default news" data-ng-repeat="activity in vm.activities">
             <div class="panel-body">
-                <div class="media">
+                <div ng-switch="activity.action">
+                    <div ng-switch-when="createdStaffFeedback">
 
-                    <div class="media-body" style="padding: 10px 10px 0 10px;">
-                        <div class="floatLeft">
-                            <a href="#">
-                                <ss-image class="'media-object'" src="activity.object.variations[0].image"
-                                          width="'90'"></ss-image>
-                            </a>
-                        </div>
-                        <div class="floatLeft" style="margin-left: 30px;">
-                            <h4 class="media-heading">Feedback Request</h4>
-                            <p><strong><a ui-sref="product({ sku : activity.object.sku })">Product </a></strong>
-                                <small>sku</small>
-                            </p>
-                        </div>
-                        <div class="floatRight">
-                           <!-- <like-action activity="activity"
-                                         spotId="activity.body.id"></like-action>-->
-                        </div>
-                        <div class="clearfix">
-                            <span class="label label-tags">Style</span>
-                            <span class="label label-tags">Fit</span>
-                            <span class="label label-tags">Price</span>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <ss-image class="'media-object'" src="activity.object.variations[0].image"
+                                              width="'90'"></ss-image>
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Feedback</h4>
+                                <p><strong><a ui-sref="product({ sku : activity.object.sku })">{{
+                                    activity.object.description
+                                    }} </a></strong>
+                                    <small>{{ activity.object.sku }}</small>
+                                </p>
 
-                            <p class="feed-back">
-                                <mention is-subject="true" staff-member="activity.subject"></mention>
-                                bodydes <br/>
-                                <small class="ago" am-time-ago="activity.createdAt"></small>
-                                <store-mention store="activity.store"></store-mention>
-                            </p>
-                            <button type="submit" data-ng-click="vm.openFeedback()"
-                                    class="btn btn-seekstock pull-right">
-                                Give Feedback
-                            </button>
-                            <p class="clearfix"></p>
+                                <feedback-labels feedback="activity.body"></feedback-labels>
 
+                                <p class="feed-back">
+                                    <mention is-subject="true" staff-member="activity.subject"></mention>
+                                    {{ activity.body.description }} <br/>
+                                    <small class="ago" am-time-ago="activity.createdAt"></small>
+                                    <store-mention store="activity.store"></store-mention>
+                                </p>
+
+                            </div>
+                            <div class="media-right">
+                                <like-action activity="activity" spotId="activity.body.id"></like-action>
+                            </div>
                         </div>
-
+                        <comments object-id="activity.body.id" object-type="'feedback'"
+                                  recipient-id="activity.subject.id"></comments>
                     </div>
-                    <div class="feedbackInRequest">
-                        <style>
-                            .feedbackInRequest .panel-group {
-                                margin: -1px;
-                            }
-                        </style>
-                        <script type="text/ng-template" id="group-template.html">
-                            <div class="panel panel-default" ng-click="toggleOpen()">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title" style="color:#fa39c3" >
-                                        <a href tabindex="0" class="accordion-toggle"
-                                           uib-accordion-transclude="heading">
-            <span uib-accordion-header ng-class="{'text-muted': isDisabled}">
-              {{heading}}
-            </span>
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div class="panel-collapse collapse" uib-collapse="!isOpen">
-                                    <div class="panel-body" style="text-align: right" ng-transclude></div>
-                                </div>
+                    <div ng-switch-when="createdStaffRequest">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <ss-image class="'media-object'" src="activity.object.variations[0].image"
+                                              width="'90'"></ss-image>
+                                </a>
                             </div>
-                        </script>
+                            <div class="media-body">
+                                <h4 class="media-heading">Product Request</h4>
+                                <p><strong><a ui-sref="product({ sku : activity.object.sku })">{{activity.object.description}} </a></strong>
+                                    <small>{{ activity.object.sku }}</small>
+                                </p>
 
-                        <uib-accordion>
-                            <div uib-accordion-group class="panel-default" is-open="status.open">
-                                <uib-accordion-heading>
-                                    Feed Back<i class="pull-right glyphicon"
-                                                ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
-                                </uib-accordion-heading>
-                                <div class="media">
-                                    <div class="media-body" style="padding: 0px 10px 0 10px;">
-                                        <div class="floatRight">
-                                            <like-action activity="activity"
-                                                         spotId="activity.body.id"></like-action>
-                                        </div>
-                                        <h4 class="media-heading">James Blake(STM)</h4>
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <p class="feed-back">
-                                            <mention is-subject="true"
-                                                     staff-member="activity.subject"></mention>
-                                            {{ 'activity.body.description' }} <br/>
-                                            <small class="ago" am-time-ago="activity.createdAt">Time</small>
-                                            <store-mention store="HO">HO</store-mention>
-                                        </p>
-                                        <p>
+                                <table class="table" style="font-size:11px">
+                                    <tr>
+                                        <td>Category</td>
+                                        <td>{{ activity.body.productType }}</td>
 
-                                        </p>
-                                    </div>
-                                </div>
+                                    </tr>
+                                    <tr>
+                                        <td>Size</td>
+                                        <td>{{ activity.body.size }}</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Colour</td>
+                                        <td>{{ activity.body.colour }}</td>
+                                    </tr>
+                                </table>
+                                <p class="feed-back">
+                                    <mention is-subject="true" staff-member="activity.subject"></mention>
+                                    {{ activity.body.description }} <br/>
+                                    <small class="ago" am-time-ago="activity.createdAt"></small>
+                                    <store-mention store="activity.store"></store-mention>
+                                </p>
+                                <p>
+                                    <span class="label label-tags"
+                                          data-ng-repeat="tag in activity.body.tags">{{ tag }}</span>
+                                </p>
+
                             </div>
-                        </uib-accordion>
+                            <div class="media-right">
+                                <like-action activity="activity" spotId="activity.body.id"></like-action>
+                            </div>
+                        </div>
+                        <comments object-id="activity.body.id" object-type="'feedback'"
+                                  recipient-id="activity.subject.id"></comments>
                     </div>
-                    <div class="feedbackInRequest">
-                        <style>
-                            .feedbackInRequest .panel-group {
-                                margin: -1px;
-                            }
-                        </style>
-                        <script type="text/ng-template" id="group-template.html">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title" style="color:#fa39c3" ng-click="toggleOpen()">
-                                        <a href tabindex="0" class="accordion-toggle"
-                                           uib-accordion-transclude="heading">
-            <span uib-accordion-header ng-class="{'text-muted': isDisabled}">
-              {{heading}}
-            </span>
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div class="panel-collapse collapse" uib-collapse="!isOpen">
-                                    <div class="panel-body" style="text-align: right" ng-transclude></div>
-                                </div>
-                            </div>
-                        </script>
-
-                        <uib-accordion>
-                            <div uib-accordion-group class="panel-default" is-open="status.open">
-                                <uib-accordion-heading>
-                                    Feed Back<i class="pull-right glyphicon"
-                                                ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
-                                </uib-accordion-heading>
-                                <div class="media">
-                                    <div class="media-body" style="padding: 0px 10px 0 10px;">
-                                        <div class="floatRight">
-                                            <like-action activity="activity"
-                                                         spotId="activity.body.id"></like-action>
-                                        </div>
-                                        <h4 class="media-heading">James Blake(STM)</h4>
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <p class="feed-back">
-                                            <mention is-subject="true"
-                                                     staff-member="activity.subject"></mention>
-                                            {{ 'activity.body.description' }} <br/>
-                                            <small class="ago" am-time-ago="activity.createdAt">Time</small>
-                                            <store-mention store="HO">HO</store-mention>
-                                        </p>
-                                        <p>
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </uib-accordion>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default news">
-            <div class="panel-body">
-                <div class="media">
-
-                    <div class="media-body" style="padding: 10px 10px 0 10px;">
-                        <div class="floatLeft">
-                            <a href="#">
-                                <ss-image class="'media-object'" src="activity.object.variations[0].image"
-                                          width="'90'"></ss-image>
-                            </a>
-                        </div>
-                        <div class="floatLeft" style="margin-left: 30px;">
-                            <h4 class="media-heading">Feedback Request</h4>
-                            <p><strong><a ui-sref="product({ sku : activity.object.sku })">Product </a></strong>
-                                <small>sku</small>
-                            </p>
-                        </div>
-                        <div class="floatRight">
-                            <like-action activity="activity" spotId="activity.body.id"></like-action>
-                        </div>
-                        <div class="clearfix">
-                            <span class="label label-tags">Style</span>
-                            <span class="label label-tags">Fit</span>
-                            <span class="label label-tags">Price</span>
-
-                            <p class="feed-back">
-                                <mention is-subject="true" staff-member="activity.subject"></mention>
-                                bodydes <br/>
-                                <small class="ago" am-time-ago="activity.createdAt"></small>
-                                <store-mention store="activity.store"></store-mention>
-                            </p>
-                            <button  ng-click="vm.openFeedback()"
-                                    class="btn btn-seekstock pull-right ng-scope">
-                                Give Feedback
-                            </button>
-                            <p class="clearfix"></p>
-
-                        </div>
-
-                    </div>
-                    <div class="feedbackInRequest">
-                        <style>
-                            .feedbackInRequest .panel-group {
-                                margin: -1px;
-                            }
-                        </style>
-                        <script type="text/ng-template" id="group-template.html">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title" style="color:#fa39c3" ng-click="toggleOpen()">
-                                        <a href tabindex="0" class="accordion-toggle"
-                                           uib-accordion-transclude="heading">
-            <span uib-accordion-header ng-class="{'text-muted': isDisabled}">
-              {{heading}}
-            </span>
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div class="panel-collapse collapse" uib-collapse="!isOpen">
-                                    <div class="panel-body" style="text-align: right" ng-transclude></div>
-                                </div>
-                            </div>
-                        </script>
-
-                        <uib-accordion>
-                            <div uib-accordion-group class="panel-default" is-open="status.open">
-                                <uib-accordion-heading>
-                                    Feed Back<i class="pull-right glyphicon"
-                                                ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
-                                </uib-accordion-heading>
-                                <div class="media">
-                                    <div class="media-body" style="padding: 0px 10px 0 10px;">
-                                        <div class="floatRight">
-                                            <like-action activity="activity"
-                                                         spotId="activity.body.id"></like-action>
-                                        </div>
-                                        <h4 class="media-heading">James Blake(STM)</h4>
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <p class="feed-back">
-                                            <mention is-subject="true"
-                                                     staff-member="activity.subject"></mention>
-                                            {{ 'activity.body.description' }} <br/>
-                                            <small class="ago" am-time-ago="activity.createdAt">Time</small>
-                                            <store-mention store="HO">HO</store-mention>
-                                        </p>
-                                        <p>
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </uib-accordion>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default news">
-            <div class="panel-body">
-                <div class="media">
-
-                    <div class="media-body" style="padding: 10px 10px 0 10px;">
-                        <div class="floatLeft">
-                            <a href="#">
-                                <ss-image class="'media-object'" src="activity.object.variations[0].image"
-                                          width="'90'"></ss-image>
-                            </a>
-                        </div>
-                        <div class="floatLeft" style="margin-left: 30px;">
-                            <h4 class="media-heading">Feedback Request</h4>
-                            <p><strong><a ui-sref="product({ sku : activity.object.sku })">Product </a></strong>
-                                <small>sku</small>
-                            </p>
-                        </div>
-                        <div class="floatRight">
-                            <like-action activity="activity" spotId="activity.body.id"></like-action>
-                        </div>
-                        <div class="clearfix">
-                            <span class="label label-tags">Style</span>
-                            <span class="label label-tags">Fit</span>
-                            <span class="label label-tags">Price</span>
-
-                            <p class="feed-back">
-                                <mention is-subject="true" staff-member="activity.subject"></mention>
-                                bodydes <br/>
-                                <small class="ago" am-time-ago="activity.createdAt"></small>
-                                <store-mention store="activity.store"></store-mention>
-                            </p>
-                            <button type="submit" data-ng-click="vm.openFeedback()"
-                                    class="btn btn-seekstock pull-right ng-scope">
-                                Give Feedback
-                            </button>
-                            <p class="clearfix"></p>
-
-                        </div>
-
-                    </div>
-                    <div class="feedbackInRequest">
-                        <style>
-                            .feedbackInRequest .panel-group {
-                                margin: -1px;
-                            }
-                        </style>
-                        <script type="text/ng-template" id="group-template.html">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title" style="color:#fa39c3" ng-click="toggleOpen()">
-                                        <a href tabindex="0" class="accordion-toggle"
-                                           uib-accordion-transclude="heading">
-            <span uib-accordion-header ng-class="{'text-muted': isDisabled}">
-              {{heading}}
-            </span>
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div class="panel-collapse collapse" uib-collapse="!isOpen">
-                                    <div class="panel-body" style="text-align: right" ng-transclude></div>
-                                </div>
-                            </div>
-                        </script>
-
-                        <uib-accordion>
-                            <div uib-accordion-group class="panel-default" is-open="status.open">
-                                <uib-accordion-heading>
-                                    Feed Back<i class="pull-right glyphicon"
-                                                ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
-                                </uib-accordion-heading>
-                                <div class="media">
-                                    <div class="media-body" style="padding: 0px 10px 0 10px;">
-                                        <div class="floatRight">
-                                            <like-action activity="activity"
-                                                         spotId="activity.body.id"></like-action>
-                                        </div>
-                                        <h4 class="media-heading">James Blake(STM)</h4>
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <span class="label label-tags">Price</span>
-                                        {{ 'OPT3' }}
-                                        <p class="feed-back">
-                                            <mention is-subject="true"
-                                                     staff-member="activity.subject"></mention>
-                                            {{ 'activity.body.description' }} <br/>
-                                            <small class="ago" am-time-ago="activity.createdAt">Time</small>
-                                            <store-mention store="HO">HO</store-mention>
-                                        </p>
-                                        <p>
-
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </uib-accordion>
-                    </div>
-
-
                 </div>
             </div>
         </div>
@@ -430,6 +151,4 @@
     <div class="col-xs-4">
         <insights-dashboard ng-show="vm.activities.length>0"></insights-dashboard>
     </div>
-
 </div>
-

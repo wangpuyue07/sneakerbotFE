@@ -7,3 +7,4 @@ var client = require('../../lib/application/providers/sqlClient');
 client.sync().then(() => {
     console.log('SCHEMA CREATED.');
 });
+

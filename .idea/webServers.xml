@@ -2,8 +2,32 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="82cc8b98-bfa7-44f8-b6c2-57304f3e1a25" name="wpy" url="http://47.90.37.119">
-        <fileTransfer host="47.90.37.119" port="22" rootFolder="/root/guysInNZ" accessType="SFTP" username="root">
+      <webServer id="82cc8b98-bfa7-44f8-b6c2-57304f3e1a25" name="glassons" url="http://glassons.seekstock.nz">
+        <fileTransfer host="glassons.seekstock.nz" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true" username="coreos">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1e309379-75a0-4337-a7da-d2567f9eaf89" name="pay" url="http://47.90.55.111">
+        <fileTransfer host="47.90.55.111" port="2157" accessType="FTPS" username="nzp" password="dfcbdfcedfcddfe0dfeadf98df9adf9bdf9c">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2157" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4c5faa2f-f3e9-457c-a134-51eacf403e38" name="test" url="http://test.seekstock.nz/">
+        <fileTransfer host="test.seekstock.nz" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="91944bb6-c138-407d-becb-81994c59cc9d" name="world" url="http://40.127.80.55">
+        <fileTransfer host="40.127.80.55" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

@@ -33,4 +33,4 @@ mysql:
         - MYSQL_ALLOW_EMPTY_PASSWORD=yes
         - MYSQL_DATABASE=seekstock
     volumes:
-        - /Users/rjarmstrong/data/mysql/dev:/usr/local/mysql
+        - /Users/Anthony/data/mysql/dev:/var/lib/mysql

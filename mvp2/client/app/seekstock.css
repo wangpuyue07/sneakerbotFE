@@ -127,6 +127,7 @@ a {
     .search-box {
         width: 400px;
     }
+
 }
 
 .search-box {
@@ -169,16 +170,19 @@ a {
     background-color: #122B3B;
 }
 
+
 .navbar-static-top .navbar-nav > li > a, .navbar-static-top .navbar-text {
     color: #CACACA
 }
 
 .navbar-static-top .navbar-nav > li > a:focus, .navbar-static-top .navbar-nav > li > a:hover {
+
     color: white;
     background-color: transparent;
 }
 
 .navbar-nav > li > a {
+
     padding: 8px 10px
 }
 
@@ -261,15 +265,17 @@ a {
     font-weight: normal;
 }
 
+
 .ago {
+
     color: #C3BFBF;
 }
 
 .btn-google {
     background-color: #5CB9D5
 }
-
 .btn-google.active, .btn-google.focus, .btn-google:active, .btn-google:focus, .btn-google:hover, .open > .dropdown-toggle.btn-google {
+
     background-color: #5ecce8
 }
 
@@ -504,6 +510,7 @@ input.faChkSqr:after {
     margin-right:50px;
 }
 
+
 .fa-checkboxes {
     margin: 0 1px;
     color: #5DBBD7;
@@ -568,3 +575,4 @@ input.faChkSqr:after {
 .clearfix{
     clear:both;
 }
+

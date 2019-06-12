@@ -1,4 +1,4 @@
-<a href="/">&lt; Back to feed</a>
+<a  onclick="location.href='/'">&lt; Back to feed</a>
 
 <h3>Notifications</h3>
 
@@ -43,7 +43,7 @@
                 <div class="media-body">
                     <p>
                         <mention staff-member="notification.activity.subject"></mention>
-                        mentioned you in a <a ng-href="/products/{{ notification.activity.object.sku }}?activityReferenceId={{ notification.activity.id }}">comment</a>
+                        mentioned you in a comment</a>
                     </p>
                     <small class="ago" am-time-ago="notification.createdAt"></small>
                     <store-mention store="notification.activity.store"></store-mention>
@@ -53,3 +53,5 @@
     </div>
 </div>
 
+<!--
+mentioned you in a <a ng-href="/products/{{ notification.activity.object.sku }}?activityReferenceId={{ notification.activity.id }}">comment</a>-->

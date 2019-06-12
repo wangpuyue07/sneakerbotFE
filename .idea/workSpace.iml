@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/fe.open-uisdk" />
+      <excludeFolder url="file://$MODULE_DIR$/mvp2/client/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/mvp2/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/mvp2/public" />
+      <excludeFolder url="file://$MODULE_DIR$/mvp2/public/new" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockAdmin" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockStaff" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockStaff/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockStaff/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockStaff/dev" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockStaff/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockStaff/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockStoreManager" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockWelcom/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockWelcom/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockWelcom/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockWelcom/dev" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockWelcom/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/seekstockWelcom/node_modules" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

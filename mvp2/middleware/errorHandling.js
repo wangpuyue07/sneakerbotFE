@@ -1,6 +1,6 @@
 var config = require('../config');
-var logger = require('../lib/application/logger')('Web Errors.');
-var service = require('../lib/application/serviceUtils');
+var logger = require('../lib_new/application/logger')('Web Errors.');
+var service = require('../lib_new/application/serviceUtils');
 var fs = require('fs');
 var util = require('util');
 var path = require('path');

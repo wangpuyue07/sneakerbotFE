@@ -5,7 +5,9 @@
     angular.module('ssNg.news').controller('NewsController',
         ['Auth', '$window', 'messaging', '$scope', 'newsService', 'staffService', '$stateParams', '$state', '_', 'storeService', 'feedbackService', NewsController]);
 
+
     function NewsController(Auth, $window, messaging, $scope, newsService, staffService, $stateParams, $state,_, storeService, feedbackService) {
+
 
         var vm = this;
 
@@ -53,6 +55,7 @@
                 vm.firstLoad = true;
             });
         };
+
         vm.status = {
             isCustomHeaderOpen: false,
             isFirstOpen: true,
@@ -61,7 +64,6 @@
         vm.openFeedback = feedbackService.openFeedback;
 
         vm.update();
-
 
 
         // messaging.client.subscribe({
@@ -80,9 +82,5 @@
         //         $scope.$apply(angular.copy(message, activity));
         //     }
         // });
-
     }
-
-
-
 })();

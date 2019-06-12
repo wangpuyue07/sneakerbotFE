@@ -65,6 +65,7 @@
                         } else {
                             vm.requestfeedback.appliesTo.push(tag);
                         }
+
                     }
                 }
             }]

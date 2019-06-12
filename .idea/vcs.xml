@@ -2,12 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/airbnb-starter" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/blog" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mtui-react" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/react-kelink" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/react_and_redux_and_router_example" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spa" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/webApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mvp2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/seekstockWelcom" vcs="Git" />
   </component>
 </project>

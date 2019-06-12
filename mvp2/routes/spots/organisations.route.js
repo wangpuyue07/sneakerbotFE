@@ -1,9 +1,12 @@
 ﻿var route = require('express').Router();
-var constants = require('../../lib/constants');
-var organisationService = require('../../lib/spots/organisationService');
-var service = require('../../lib/application/serviceUtils');
+var constants = require('../../lib_new/application/constants');
+var organisationService = require('../../lib_new/base_service/organisationService');
+var service = require('../../lib_new/application/serviceUtils');
+
 
 route.post('/', service.handleWith(organisationService.createOrganisation));
+
+route.get('/checkOrganizationDomain/:domain', service.handleWith(organisationService.checkOrganizationName));
 
 route.get('/me', service.handleWith(organisationService.getOrganisation, {
     inMappers : [function(command){

@@ -1,5 +1,5 @@
-var storeService = require('../../lib/spots/storeService');
-var genUtils = require('../../lib/application/genUtils');
+var storeService = require('../../lib_new/base_service/storeService');
+var genUtils = require('../../lib_new/application/genUtils');
 var config = require('../../config');
 
 exports.upsertStore = function (externalUser, organisationId) {

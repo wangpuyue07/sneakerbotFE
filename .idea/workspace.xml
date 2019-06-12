@@ -2,36 +2,189 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b015ba39-b11f-4447-bc02-77099f61fc49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Anthony.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webApp/app/scripts/components/common/footer/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webApp/app/scripts/components/common/nav/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webApp/app/scripts/components/detail/container/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webApp/app/scripts/components/home/container/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webApp/app/styles/common/nav/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webApp/app/styles/view/detail/container/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webApp/app/styles/view/detail/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webApp/app/styles/view/home/container/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webApp/app/styles/view/home/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webApp/app/styles/view/index.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webApp/app/scripts/actions/counter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webApp/app/scripts/components/counter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webApp/app/scripts/components/home/yi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webApp/app/scripts/constant/counter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webApp/app/scripts/containers/counter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webApp/app/scripts/reducers/counter/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webApp/app/scripts/stores/counter/index.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-kelink/src/config/route.jsx" afterPath="$PROJECT_DIR$/react-kelink/src/config/route.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react_and_redux_and_router_example/views/react/selectors/loginSelector.js" afterPath="$PROJECT_DIR$/react_and_redux_and_router_example/views/react/selectors/loginSelector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/app/index.html" afterPath="$PROJECT_DIR$/webApp/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/app/scripts/main.js" afterPath="$PROJECT_DIR$/webApp/app/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/app/scripts/reducers/index.js" afterPath="$PROJECT_DIR$/webApp/app/scripts/reducers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/app/scripts/views/detail/index.js" afterPath="$PROJECT_DIR$/webApp/app/scripts/views/detail/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/app/scripts/views/home/index.js" afterPath="$PROJECT_DIR$/webApp/app/scripts/views/home/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/app/styles/main.scss" afterPath="$PROJECT_DIR$/webApp/app/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/gulpfile.js" afterPath="$PROJECT_DIR$/webApp/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webApp/npm-debug.log" afterPath="$PROJECT_DIR$/webApp/npm-debug.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asd.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/http.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/mine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/css/et-line-font.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/css/vegas.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/Flaticon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/Flaticon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/Flaticon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/Flaticon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/_flaticon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/et-line.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/et-line.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/et-line.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/et-line.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/flaticon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/flaticon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/images/about-img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/images/anquan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/images/modal-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/images/slide-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/images/slide-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/images/zhuanye.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/images/zhuanzhu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pay/webapp/index-en.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/airbnb-starter" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZ" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/.buckconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/.flowconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/.watchmanconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/BUCK" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/src/main/java/com/guysinnzforiosandandroid/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/app/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/keystores/BUCK" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/keystores/debug.keystore.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/android/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/index.android.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/index.ios.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/ios/guysInNZForIOSAndAndroid.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/ios/guysInNZForIOSAndAndroid.xcodeproj/xcshareddata/xcschemes/guysInNZForIOSAndAndroid.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/ios/guysInNZForIOSAndAndroid/AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/ios/guysInNZForIOSAndAndroid/AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/ios/guysInNZForIOSAndAndroid/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/ios/guysInNZForIOSAndAndroid/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/ios/guysInNZForIOSAndAndroid/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/ios/guysInNZForIOSAndAndroid/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/ios/guysInNZForIOSAndAndroidTests/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/ios/guysInNZForIOSAndAndroidTests/guysInNZForIOSAndAndroidTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/guysInNZForIOSAndAndroid/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mtui-react" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/activity/activityService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/activity/commentService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/application/eventBroker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/application/genUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/application/logger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/application/persistence.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/application/providers/redis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/application/providers/sqlClient.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/application/serviceUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/authService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/bagpipes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/constants.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/feedbackService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/handlers/activity.handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/handlers/feedback.handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/handlers/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/handlers/request.handler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/insightService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/newsService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/notificationRules.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/notificationService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/objects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/productService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/requestFeedbackService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/requestService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/spots/organisationService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/spots/personService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/spots/spotService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/spots/staffService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/spots/storeService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/_modelFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/activities.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/activitiesLog.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/feedback.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/notifications.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/organisations.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/passwordResets.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/principals.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/products.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/requests.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/sqlModels/spots.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/users/principalService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/lib/users/userService.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvp2/routes/feedback/request.route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react-kelink" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react_and_redux_and_router_example" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webApp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workSpace.iml" afterPath="$PROJECT_DIR$/.idea/workSpace.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/.gitignore" afterPath="$PROJECT_DIR$/mvp2/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/DockerUpload.sh" afterPath="$PROJECT_DIR$/mvp2/DockerUpload.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/app.js" afterPath="$PROJECT_DIR$/mvp2/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/bower.json" afterPath="$PROJECT_DIR$/mvp2/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/components/auth/classic/classicSignin.html" afterPath="$PROJECT_DIR$/mvp2/client/app/components/auth/classic/classicSignin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/components/navbar/navbar.html" afterPath="$PROJECT_DIR$/mvp2/client/app/components/navbar/navbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/components/skuSelector/skuSelector.directive.js" afterPath="$PROJECT_DIR$/mvp2/client/app/components/skuSelector/skuSelector.directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/feedback/feedback.service.js" afterPath="$PROJECT_DIR$/mvp2/client/app/feedback/feedback.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/feedback/feedbackForm.html" afterPath="$PROJECT_DIR$/mvp2/client/app/feedback/feedbackForm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/main/chooseStaffMemberForm.html" afterPath="$PROJECT_DIR$/mvp2/client/app/main/chooseStaffMemberForm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/news/news.controller.js" afterPath="$PROJECT_DIR$/mvp2/client/app/news/news.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/news/news.html" afterPath="$PROJECT_DIR$/mvp2/client/app/news/news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/news/news.service.js" afterPath="$PROJECT_DIR$/mvp2/client/app/news/news.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/notifications/list.html" afterPath="$PROJECT_DIR$/mvp2/client/app/notifications/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/products/product.html" afterPath="$PROJECT_DIR$/mvp2/client/app/products/product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/search/results.controller.js" afterPath="$PROJECT_DIR$/mvp2/client/app/search/results.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/search/results.html" afterPath="$PROJECT_DIR$/mvp2/client/app/search/results.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/app/seekstock.css" afterPath="$PROJECT_DIR$/mvp2/client/app/seekstock.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/appFiles.js" afterPath="$PROJECT_DIR$/mvp2/client/appFiles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/client/index.html" afterPath="$PROJECT_DIR$/mvp2/client/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/config.js" afterPath="$PROJECT_DIR$/mvp2/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/deploy/build.sh" afterPath="$PROJECT_DIR$/mvp2/deploy/build.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/deploy/data/create_schema.js" afterPath="$PROJECT_DIR$/mvp2/deploy/data/create_schema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/deploy/data/seed_data.js" afterPath="$PROJECT_DIR$/mvp2/deploy/data/seed_data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/deploy/dev/docker-compose.yml" afterPath="$PROJECT_DIR$/mvp2/deploy/dev/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/deploy/test/docker-compose.yml" afterPath="$PROJECT_DIR$/mvp2/deploy/test/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/deploy/testlocal/docker-compose.yml" afterPath="$PROJECT_DIR$/mvp2/deploy/testlocal/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/karma.conf.js" afterPath="$PROJECT_DIR$/mvp2/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/middleware/errorHandling.js" afterPath="$PROJECT_DIR$/mvp2/middleware/errorHandling.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/middleware/tokenAuthentication.js" afterPath="$PROJECT_DIR$/mvp2/middleware/tokenAuthentication.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/package.json" afterPath="$PROJECT_DIR$/mvp2/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/activity/activity.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/activity/activity.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/activity/comments.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/activity/comments.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/allRoutes.js" afterPath="$PROJECT_DIR$/mvp2/routes/allRoutes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/auth/authentication.common.js" afterPath="$PROJECT_DIR$/mvp2/routes/auth/authentication.common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/auth/authentication.handlers.js" afterPath="$PROJECT_DIR$/mvp2/routes/auth/authentication.handlers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/auth/google.authentication.strategy.js" afterPath="$PROJECT_DIR$/mvp2/routes/auth/google.authentication.strategy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/auth/index.js" afterPath="$PROJECT_DIR$/mvp2/routes/auth/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/auth/local.authentication.strategy.js" afterPath="$PROJECT_DIR$/mvp2/routes/auth/local.authentication.strategy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/feedback/feedback.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/feedback/feedback.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/feedback/requestFeedback.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/feedback/requestFeedback.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/insights/insights.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/insights/insights.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/news/news.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/news/news.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/news/notifications.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/news/notifications.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/products/product.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/products/product.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/spots/organisations.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/spots/organisations.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/spots/persons.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/spots/persons.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/spots/staff.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/spots/staff.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/spots/stores.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/spots/stores.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/users/users.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/users/users.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvp2/routes/web.route.js" afterPath="$PROJECT_DIR$/mvp2/routes/web.route.js" />
     </list>
     <ignored path="workSpace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +195,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -52,109 +204,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/common/footer/index.scss">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvp2/deploy/dev/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="300">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/register/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" selection-start-line="1" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/common/nav/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/me/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/me/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/menu/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/menu/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="947">
-              <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#42#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/login/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="33" column="25" selection-start-line="31" selection-start-column="16" selection-end-line="33" selection-end-column="25" />
-              <folding>
-                <element signature="e#42#81#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -164,67 +219,143 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>temTags</find>
+      <find>temComment</find>
+      <find>Media</find>
+      <find>rgb(75, 192, 192)</find>
+      <find>feedbackData</find>
+      <find>upda</find>
+      <find>detail</find>
+      <find>eedbackIte</find>
+      <find>ttp://localhost:</find>
+      <find>feedbackI</find>
+      <find>detailItem</find>
+      <find>start</find>
+      <find>Suggestion</find>
+      <find>handlefeedbackbyFace</find>
+      <find>opacity:0.4</find>
+      <find>opacity:0.8</find>
+      <find>tagName</find>
+      <find>Constants</find>
+      <find>Constants.historyTab</find>
+      <find>this.tags</find>
+      <find>this.result</find>
+      <find>this</find>
+      <find>newDataWhenSubmit</find>
+      <find>command.page</find>
+      <find>dele</find>
+      <find>.activity</find>
+      <find>myItem.id</find>
+      <find>//createNoti(data);</find>
+      <find>temp</find>
+      <find>.push</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>names</replace>
+      <replace>shortCode</replace>
+      <replace>this.state.comments</replace>
+      <replace>that.fres</replace>
+      <replace>this.state.voteStaff</replace>
+      <replace>this.voteStaff</replace>
+      <replace>noti.createStore.names[0].text</replace>
+      <replace>voteSuggestionStaff</replace>
+      <replace>!=</replace>
+      <replace>cell</replace>
+      <replace>data</replace>
+      <replace>this.context.router.replace('/login');</replace>
+      <replace>command</replace>
+      <replace>ViewProducts</replace>
+      <replace>Connect</replace>
+      <replace>this.props.query</replace>
+      <replace>this.props.item</replace>
+      <replace>&quot;</replace>
+      <replace>38px</replace>
+      <replace>#666</replace>
+      <replace>this.data</replace>
+      <replace>product.</replace>
+      <replace>/div</replace>
+      <replace>&gt;/</replace>
+      <replace>.id</replace>
+      <replace>updatedAt</replace>
+      <replace>props.searchValue</replace>
+      <replace>opacity:0.6</replace>
+      <replace>opacity:0.7</replace>
+      <replace>that</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent</dir>
+      <dir>$PROJECT_DIR$/mvp2/lib</dir>
+      <dir>$PROJECT_DIR$/seekstockWelcom/app/scripts</dir>
+      <dir>$PROJECT_DIR$/seekstockWelcom/app</dir>
+      <dir>$PROJECT_DIR$/seekstockWelcom</dir>
+      <dir>$PROJECT_DIR$/mvp2/lib_new</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mvp2" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webApp/gulpfile.js" />
-        <option value="$PROJECT_DIR$/webApp/app/scripts/views/detail/index.js" />
-        <option value="$PROJECT_DIR$/webApp/app/scripts/components/detail/container/index.js" />
-        <option value="$PROJECT_DIR$/webApp/app/scripts/components/common/footer/index.js" />
-        <option value="$PROJECT_DIR$/webApp/app/scripts/main.js" />
-        <option value="$PROJECT_DIR$/webApp/app/scripts/views/home/index.js" />
-        <option value="$PROJECT_DIR$/mtui-react/说明文档.txt" />
-        <option value="$PROJECT_DIR$/mtui-react/dev/actions/user.jsx" />
-        <option value="$PROJECT_DIR$/react_and_redux_and_router_example/views/react/selectors/loginSelector.js" />
-        <option value="$PROJECT_DIR$/airbnb-starter/app/index.html" />
-        <option value="$PROJECT_DIR$/guysInNZ/README.md" />
-        <option value="$PROJECT_DIR$/guysInNZ/.babelrc" />
-        <option value="$PROJECT_DIR$/guysInNZ/.gitignore" />
-        <option value="$PROJECT_DIR$/guysInNZ/package.json" />
-        <option value="$PROJECT_DIR$/react-kelink/src/config/route.jsx" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/components/main/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/home/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/main.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/detail/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/components/detail/container/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/gulpfile.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/index.html" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/components/home/container/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/main.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/main/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/artical/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/view/home/container/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/view/detail/container/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/common/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/view/article/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/article/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/fonts/flaticon.css" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/searchSchool/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/components/common/nav/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/adviserInfo/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/applySchool/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/components/common/footer/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/news/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/study/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/login/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/view/login/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/register/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/view/register/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/view/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/view/me/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/menu/index.js" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/view/menu/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/common/nav/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/styles/common/footer/index.scss" />
-        <option value="$PROJECT_DIR$/guysInNZ/app/scripts/views/me/index.js" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/base_service/storeService.js" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/application/persistence.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/views/main/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/seekstockTamplate.html" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/util/util.js" />
+        <option value="$PROJECT_DIR$/mvp2/seekstockTamplate copy.html" />
+        <option value="$PROJECT_DIR$/mvp2/test.html" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/mid_service/feedbackService.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/seeComments/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/styles/component/allNotifications/index.scss" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/views/admin/backup.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/node_modules/silk-scroller/lib/Scroller.css" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/seeSuggestions/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/gulpfile.js" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/application/templateUtils.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/viewProducts/backup.js" />
+        <option value="$PROJECT_DIR$/mvp2/config.js" />
+        <option value="&lt;82cc8b98-bfa7-44f8-b6c2-57304f3e1a25&gt;/home/coreos/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/mvp2/deploy/glassons/source.json" />
+        <option value="$PROJECT_DIR$/mvp2/deploy/world/parser.js" />
+        <option value="$PROJECT_DIR$/mvp2/deploy/glassons/parser.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/feedbackRequest/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/dashboard/dashboard_table_prototype.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/styles/component/viewProducts/index.scss" />
+        <option value="$PROJECT_DIR$/asd.js" />
+        <option value="$PROJECT_DIR$/dump.rdb" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/bagpipes.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/feedback/index.js" />
+        <option value="$PROJECT_DIR$/mvp2/package.json" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/showProduct/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/styles/component/feedback/index.scss" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/viewProducts/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/feedbackAndRequestFeedback/detailsItem.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/feedbackAndRequestFeedback/index.js" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/base_service/requestFeedbackService.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/util/constants.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/dashboard/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/views/admin/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/giveFeedback/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/feedback/feedbackCollapse.js" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/mid_service/newsService.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/activity/index.js" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/base_service/commentService.js" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/handlers/comments.handler.js" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/base_service/notificationService.js" />
+        <option value="$PROJECT_DIR$/mvp2/lib_new/handlers/feedback.handler.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/allNotifications/index.js" />
+        <option value="$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/Notifications/index.js" />
+        <option value="$PROJECT_DIR$/mvp2/DockerUpload.sh" />
+        <option value="$PROJECT_DIR$/mvp2/deploy/dev/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -232,10 +363,17 @@
     <exe-path>/usr/local/bin/bower</exe-path>
     <config-path />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1680" />
@@ -249,32 +387,19 @@
             <id />
           </State>
           <State>
-            <id>Code quality toolsJavaScript</id>
-          </State>
-          <State>
             <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Spelling</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Eslint</id>
+            <id>JavaScript</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -291,8 +416,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,12 +423,6 @@
               <option name="myItemId" value="workSpace" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="workSpace" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -321,7 +438,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
+              <option name="myItemId" value="mvp2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,33 +452,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
+              <option name="myItemId" value="mvp2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
+              <option name="myItemId" value="deploy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,626 +470,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
+              <option name="myItemId" value="mvp2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="deploy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="register" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="register" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="me" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="article" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applySchool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adviserInfo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guysInNZ" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
+              <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/webApp" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
     <property name="editor.config.accepted" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="diff.external" />
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
     <property name="js.eslint.nodeInterpreter" value="project" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="js-jscs-package" value="/usr/local/lib/node_modules/jscs" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/fe.open-uisdk/node_modules/mocha" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/mvp2/lib_new/sqlModels/_modelFactory.js~6958c2a1691fc4f2395d1a1397c3d9132bc94fff" />
+    <property name="javascript.nodejs.core.library.configured.version" value="4.4.3" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="/usr/local/lib/node_modules/gulp" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="http://139.199.36.196" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/guysInNZ/app/scripts/views" />
-      <recent name="$PROJECT_DIR$/webApp" />
+      <recent name="$PROJECT_DIR$/mvp2" />
+      <recent name="$PROJECT_DIR$/mvp2/public/new/scripts" />
+      <recent name="$PROJECT_DIR$/mvp2/public/assets/images" />
+      <recent name="$PROJECT_DIR$/mvp2/public/new" />
+      <recent name="$PROJECT_DIR$/seekstockWelcom/app/styles/common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/guysInNZ/app/images" />
-      <recent name="$PROJECT_DIR$/guysInNZ/app/fonts" />
-      <recent name="$PROJECT_DIR$/guysInNZ" />
-      <recent name="$PROJECT_DIR$/guysInNZ/app" />
-      <recent name="$PROJECT_DIR$/webApp" />
+      <recent name="$PROJECT_DIR$/mvp2/public/new/scripts" />
+      <recent name="$PROJECT_DIR$/mvp2/public/new/styles" />
+      <recent name="$PROJECT_DIR$/mvp2/deploy/glassons" />
+      <recent name="$PROJECT_DIR$/mvp2" />
+      <recent name="$PROJECT_DIR$/seekstockWelcom" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
@@ -1003,16 +550,48 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" editBeforeRun="true" path-to-node="project" path-to-js-file="app.js" application-parameters="export SEARCHINDEX=world_products&amp;&amp;export HOST=http://localhost:3000&amp;&amp;export MYSQL_DEV_PORT=3308&amp;&amp;export DOMAIN=localhost" node-parameters="export SEARCHINDEX=world_products&amp;&amp;export HOST=http://localhost:3000&amp;&amp;export MYSQL_DEV_PORT=3308&amp;&amp;export DOMAIN=localhost" working-dir="$PROJECT_DIR$/mvp2">
+      <browser start="true" />
+      <profiling allow-runtime-heap-snapshot="true" do-profile="true" v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling allow-runtime-heap-snapshot="true" do-profile="true" v8-profiler-path="" />
+      </EXTENSION>
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser start="true" />
+      </EXTENSION>
       <method />
     </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
+    <configuration default="true" type="docker-deploy" factoryName="Docker Deployment">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -1025,7 +604,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -1067,34 +646,191 @@
       <workItem from="1465990401491" duration="63000" />
       <workItem from="1465990756070" duration="6067000" />
       <workItem from="1466771455766" duration="11510000" />
-      <workItem from="1466787130487" duration="24214000" />
+      <workItem from="1466787130487" duration="24725000" />
+      <workItem from="1466852294387" duration="6721000" />
+      <workItem from="1466913091265" duration="4788000" />
+      <workItem from="1466932660855" duration="2450000" />
+      <workItem from="1466936293213" duration="433000" />
+      <workItem from="1466999916319" duration="2221000" />
+      <workItem from="1467270883417" duration="1813000" />
+      <workItem from="1467357063379" duration="4677000" />
+      <workItem from="1467631027843" duration="531000" />
+      <workItem from="1469248079782" duration="9717000" />
+      <workItem from="1469429679865" duration="848000" />
+      <workItem from="1471240460061" duration="26956000" />
+      <workItem from="1471397363632" duration="24567000" />
+      <workItem from="1471573590371" duration="87121000" />
+      <workItem from="1472509400840" duration="3025000" />
+      <workItem from="1472599265484" duration="3084000" />
+      <workItem from="1472605958884" duration="2656000" />
+      <workItem from="1472611231321" duration="2468000" />
+      <workItem from="1472614668396" duration="815000" />
+      <workItem from="1472634473543" duration="9130000" />
+      <workItem from="1472715327902" duration="59958000" />
+      <workItem from="1473210185266" duration="13084000" />
+      <workItem from="1473285048339" duration="11427000" />
+      <workItem from="1473312417182" duration="3565000" />
+      <workItem from="1473368215291" duration="9250000" />
+      <workItem from="1473395423852" duration="21942000" />
+      <workItem from="1473545807148" duration="783000" />
+      <workItem from="1473556076430" duration="6511000" />
+      <workItem from="1473630635465" duration="47101000" />
+      <workItem from="1473750799247" duration="39585000" />
+      <workItem from="1474188071201" duration="24312000" />
+      <workItem from="1474319845969" duration="15396000" />
+      <workItem from="1474347490980" duration="27784000" />
+      <workItem from="1474491930747" duration="942000" />
+      <workItem from="1474493158324" duration="46525000" />
+      <workItem from="1474834342945" duration="50856000" />
+      <workItem from="1475095680517" duration="25866000" />
+      <workItem from="1475179553183" duration="3464000" />
+      <workItem from="1475189807073" duration="453000" />
+      <workItem from="1475197028984" duration="42000" />
+      <workItem from="1475197084501" duration="3441000" />
+      <workItem from="1475312105388" duration="615000" />
+      <workItem from="1475312826508" duration="28980000" />
+      <workItem from="1475561807931" duration="58888000" />
+      <workItem from="1476044207175" duration="37837000" />
+      <workItem from="1476146278284" duration="42872000" />
+      <workItem from="1476328874440" duration="1813000" />
+      <workItem from="1476389796420" duration="15458000" />
+      <workItem from="1476608226773" duration="178000" />
+      <workItem from="1476659875988" duration="299000" />
+      <workItem from="1476754857174" duration="4314000" />
+      <workItem from="1476826821756" duration="5798000" />
+      <workItem from="1476833847869" duration="14403000" />
+      <workItem from="1476911600922" duration="18431000" />
+      <workItem from="1476997301733" duration="25455000" />
+      <workItem from="1477265954373" duration="17820000" />
+      <workItem from="1477429990869" duration="21199000" />
+      <workItem from="1477519877737" duration="16677000" />
+      <workItem from="1477603588475" duration="17015000" />
+      <workItem from="1477862399441" duration="19186000" />
+      <workItem from="1477949239037" duration="1806000" />
+      <workItem from="1477954215681" duration="17388000" />
+      <workItem from="1477986060423" duration="40688000" />
+      <workItem from="1478208584754" duration="70653000" />
+      <workItem from="1478591022638" duration="1896000" />
+      <workItem from="1478642579382" duration="12505000" />
+      <workItem from="1478726565159" duration="20890000" />
+      <workItem from="1479071688347" duration="44889000" />
+      <workItem from="1479212002631" duration="1173000" />
+      <workItem from="1479214011896" duration="784000" />
+      <workItem from="1479216394333" duration="581000" />
+      <workItem from="1479217000693" duration="671000" />
+      <workItem from="1479218147145" duration="17446000" />
+      <workItem from="1479332185143" duration="17169000" />
+      <workItem from="1479418443789" duration="18557000" />
+      <workItem from="1479677116786" duration="61911000" />
+      <workItem from="1479858357829" duration="28289000" />
+      <workItem from="1479934705362" duration="23715000" />
+      <workItem from="1480280908845" duration="24815000" />
+      <workItem from="1480367373090" duration="43001000" />
+      <workItem from="1480629334082" duration="6432000" />
+      <workItem from="1480888682135" duration="11697000" />
+      <workItem from="1480972288160" duration="9631000" />
+      <workItem from="1481059992844" duration="23636000" />
+      <workItem from="1481232462667" duration="8180000" />
+      <workItem from="1481491332358" duration="45799000" />
+      <workItem from="1481750706293" duration="1990000" />
+      <workItem from="1481774175568" duration="14565000" />
+      <workItem from="1482095567621" duration="68243000" />
+      <workItem from="1483057938213" duration="4642000" />
+      <workItem from="1483595955133" duration="2321000" />
+      <workItem from="1483914577913" duration="6709000" />
+      <workItem from="1483935709152" duration="21686000" />
+      <workItem from="1484082991253" duration="58515000" />
+      <workItem from="1484513756703" duration="23209000" />
+      <workItem from="1484557013458" duration="80065000" />
+      <workItem from="1485115611741" duration="18000" />
+      <workItem from="1485115843550" duration="47563000" />
+      <workItem from="1485414489373" duration="7455000" />
+      <workItem from="1485425732784" duration="5847000" />
+      <workItem from="1485470800212" duration="4490000" />
+      <workItem from="1485991270791" duration="876000" />
+      <workItem from="1486213989531" duration="132000" />
+      <workItem from="1486459384692" duration="9047000" />
+      <workItem from="1486931791935" duration="11462000" />
+      <workItem from="1486945960115" duration="228005000" />
+      <workItem from="1487701339228" duration="25073000" />
+      <workItem from="1487802575543" duration="78605000" />
+      <workItem from="1488313844119" duration="54984000" />
+      <workItem from="1489357233175" duration="48487000" />
+      <workItem from="1489955069255" duration="84103000" />
+      <workItem from="1490301679965" duration="25453000" />
+      <workItem from="1490560922680" duration="42114000" />
+      <workItem from="1490688029385" duration="43684000" />
+      <workItem from="1491169596705" duration="103699000" />
+      <workItem from="1491774530884" duration="39120000" />
+      <workItem from="1492052851307" duration="988000" />
+      <workItem from="1492224309287" duration="186000" />
+      <workItem from="1492464893043" duration="42297000" />
+      <workItem from="1492641831908" duration="20289000" />
+      <workItem from="1492982267130" duration="19826000" />
+      <workItem from="1493104611452" duration="211000" />
+      <workItem from="1493105449396" duration="1406000" />
+      <workItem from="1493157989720" duration="670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68484000" />
+    <option name="totallyTimeSpent" value="2804778000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.4922049" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40612245" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954791" sideWeight="0.5077951" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16904762" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32738096" sideWeight="0.48494983" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2452642" sideWeight="0.5505952" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.497558" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42971087" sideWeight="0.44940478" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2838828" sideWeight="0.5150502" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47657028" sideWeight="0.489011" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32602194" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.497558" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29710868" sideWeight="0.54821426" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47657028" sideWeight="0.489011" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.497558" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29710868" sideWeight="0.4517857" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16904762" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23571429" sideWeight="0.48494983" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32602194" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2838828" sideWeight="0.5150502" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1107,463 +843,381 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/seekstockAdmin" />
+      <path value="$PROJECT_DIR$/fe.open-uisdk" />
+      <path value="$PROJECT_DIR$/seekstockStaff" />
+      <path value="$PROJECT_DIR$/seekstockStoreManager" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="85" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-kelink/src/config/store.jsx">
+    <entry file="file://$PROJECT_DIR$/mvp2/reports/weeklySummary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#68#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-2250">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/airbnb-starter/app/routes/root/app.js">
+    <entry file="file://$PROJECT_DIR$/mvp2/deploy/world/parser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="647">
+          <caret line="1" column="29656" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="29656" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-kelink/src/app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-kelink/src/config/route.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/components/home/container/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/fonts/flaticon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/detail/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/components/detail/container/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airbnb-starter/app/client.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airbnb-starter/app/server.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airbnb-starter/app/routes/house/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#52#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airbnb-starter/app/routes/house/Hero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airbnb-starter/app/routes/house/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airbnb-starter/app/routes/house/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airbnb-starter/app/routes/house/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airbnb-starter/app/routes/house/logout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/airbnb-starter/app/routes/house/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/main/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-kelink/src/component/Login.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-kelink/src/component/Menu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/home/container/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/home/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/detail/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/detail/container/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/article/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/fonts/_flaticon.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/fonts/flaticon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/components/common/nav/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/adviserInfo/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-            <element signature="e#501#2106#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/searchSchool/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="231" column="17" selection-start-line="231" selection-start-column="17" selection-end-line="231" selection-end-column="17" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/components/common/footer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/applySchool/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/study/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-            <element signature="e#423#1372#0" expanded="false" />
-            <element signature="e#1381#2348#0" expanded="false" />
-            <element signature="e#2357#3321#0" expanded="false" />
-            <element signature="e#3330#4279#0" expanded="false" />
-            <element signature="e#4288#5237#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/common/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/article/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="67" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="67" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/login/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/news/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/register/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#42#83#0" expanded="false" />
-            <element signature="e#84#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/register/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="1" selection-start-column="2" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/login/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="33" column="25" selection-start-line="31" selection-start-column="16" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/menu/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="74" column="52" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#42#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/me/index.scss">
+    <entry file="file://$PROJECT_DIR$/mvp2/deploy/glassons/result.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
+          <caret line="0" column="3393" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1273520" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/view/menu/index.scss">
+    <entry file="file://$PROJECT_DIR$/mvp2/deploy/glassons/parser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/vendParser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8728">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="31" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/client/app/staff/staff.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/client/app/staff/staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/feedbackRequest/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="124" column="59" lean-forward="false" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/dashboard/dashboard_table_prototype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="125" column="375" lean-forward="false" selection-start-line="125" selection-start-column="369" selection-end-line="125" selection-end-column="375" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/styles/component/viewProducts/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="3" column="5075995" lean-forward="false" selection-start-line="3" selection-start-column="5075995" selection-end-line="3" selection-end-column="5075995" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dump.rdb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/bagpipes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/public/new/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/public/new/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3234" lean-forward="false" selection-start-line="8" selection-start-column="3234" selection-end-line="8" selection-end-column="3234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/showProduct/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="166" column="81" lean-forward="false" selection-start-line="166" selection-start-column="81" selection-end-line="166" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/util/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="54" column="2" lean-forward="false" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/feedbackAndRequestFeedback/detailsItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/feedbackAndRequestFeedback/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="421" column="80" lean-forward="false" selection-start-line="421" selection-start-column="80" selection-end-line="421" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/mid_service/feedbackService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="26" column="32" lean-forward="false" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/base_service/requestFeedbackService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="210" column="52" lean-forward="false" selection-start-line="210" selection-start-column="52" selection-end-line="210" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/util/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/routes/news/news.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/viewProducts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/dashboard/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="85" column="50" lean-forward="false" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/views/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="239" column="51" lean-forward="false" selection-start-line="239" selection-start-column="51" selection-end-line="239" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/giveFeedback/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="158" column="203" lean-forward="false" selection-start-line="158" selection-start-column="203" selection-end-line="158" selection-end-column="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/dist/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/feedback/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="484" column="39" lean-forward="false" selection-start-line="484" selection-start-column="39" selection-end-line="484" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/feedback/feedbackCollapse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-757">
+          <caret line="51" column="7" lean-forward="false" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/mid_service/newsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="602" column="24" lean-forward="false" selection-start-line="602" selection-start-column="24" selection-end-line="602" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/seeComments/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="66" column="29" lean-forward="false" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/activity/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="143" column="42" lean-forward="false" selection-start-line="143" selection-start-column="42" selection-end-line="143" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/styles/component/feedback/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="536" column="21" lean-forward="false" selection-start-line="536" selection-start-column="6" selection-end-line="536" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/routes/allRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/routes/news/notifications.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/base_service/commentService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/handlers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/base_service/staffService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="99" column="5" lean-forward="false" selection-start-line="99" selection-start-column="5" selection-end-line="104" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/application/persistence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/base_service/notificationService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="109" column="43" lean-forward="false" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/handlers/comments.handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="188" column="77" lean-forward="true" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/lib_new/handlers/feedback.handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="107" column="35" lean-forward="true" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/Notifications/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/common/nav/index.scss">
+    <entry file="file://$PROJECT_DIR$/mvp2/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/dockerClean.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/styles/common/footer/index.scss">
+    <entry file="file://$PROJECT_DIR$/seekstockWelcom/app/scripts/conponent/allNotifications/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="210">
+          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guysInNZ/app/scripts/views/me/index.js">
+    <entry file="file://$PROJECT_DIR$/mvp2/DockerUpload.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvp2/deploy/dev/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

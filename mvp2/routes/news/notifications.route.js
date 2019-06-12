@@ -1,7 +1,6 @@
 var route = require('express').Router();
-var service = require('../../lib/application/serviceUtils');
-var notificationService = require('../../lib/notificationService');
-var newsService = require('../../lib/newsService');
+var service = require('../../lib_new/application/serviceUtils');
+var notificationService = require('../../lib_new/base_service/notificationService');
 
 route.get('/:recipientId', service.handleWith(notificationService.listNotifications));
 

@@ -34,9 +34,7 @@
             },
             getLatest: function (command) {
                 var that = this;
-                console.log(command);
                 return $http({url: root, method: 'GET', params: command}).then(function (res) {
-                    console.log(res);
                     return res.data;
                 })
             },

@@ -2,9 +2,9 @@ var passport = require('passport');
 var config = require('../../config');
 var GoogleStrategy = require('passport-google-oauth2').Strategy;
 var authenticationCommon = require('./authentication.common');
-var genUtils = require('../../lib/application/genUtils');
-var organisationService = require('../../lib/spots/organisationService');
-var service = require('../../lib/application/serviceUtils');
+var genUtils = require('../../lib_new/application/genUtils');
+//var organisationService = require('../../lib_new/spots/organisationService');
+var service = require('../../lib_new/application/serviceUtils');
 
 exports.strategy = function(req, res){
     passport.authenticate('google-authentication', {

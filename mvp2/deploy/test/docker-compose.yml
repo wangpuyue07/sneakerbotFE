@@ -5,13 +5,16 @@ node:
         - redis
         - mysql
     ports:
-        - "80:3000"
+        - "443:3000"
     environment:
         - HOST=http://test.seekstock.nz
+        - DOMAIN=test.seekstock.nz
         - GOOGLE_ID=915446492590-0ipgkrm608i0vgp2bjh1t5t70fvjdu2d.apps.googleusercontent.com
         - GOOGLE_SECRET=EZiLnB4T-ftAE1d2ob5RTR_y
         - HANDLE_EVENTS=true
         - FEATURE_SIGIN_OAUTH=true
+    volumes:
+        - /etc/letsencrypt:/etc/letsencrypt
 redis:
     image: redis
     ports:
@@ -19,7 +22,7 @@ redis:
 mysql:
     image: mysql
     ports:
-        - "3306:3306"
+        - "3308:3306"
     environment:
         - MYSQL_ALLOW_EMPTY_PASSWORD=yes
         - MYSQL_DATABASE=seekstock

@@ -1,0 +1,107 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 16/09/2016 05:53
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-add-circular-outlined-button:before { content: "\f100"; }
+.flaticon-avatar:before { content: "\f101"; }
+.flaticon-back:before { content: "\f102"; }
+.flaticon-cancel:before { content: "\f103"; }
+.flaticon-chat:before { content: "\f104"; }
+.flaticon-copy:before { content: "\f105"; }
+.flaticon-dislike:before { content: "\f106"; }
+.flaticon-download:before { content: "\f107"; }
+.flaticon-download-1:before { content: "\f108"; }
+.flaticon-edit:before { content: "\f109"; }
+.flaticon-envelope:before { content: "\f10a"; }
+.flaticon-error:before { content: "\f10b"; }
+.flaticon-exit:before { content: "\f10c"; }
+.flaticon-folder:before { content: "\f10d"; }
+.flaticon-garbage:before { content: "\f10e"; }
+.flaticon-hand:before { content: "\f10f"; }
+.flaticon-heart:before { content: "\f110"; }
+.flaticon-house:before { content: "\f111"; }
+.flaticon-like:before { content: "\f112"; }
+.flaticon-magnifying-glass:before { content: "\f113"; }
+.flaticon-next:before { content: "\f114"; }
+.flaticon-next-1:before { content: "\f115"; }
+.flaticon-paper-plane:before { content: "\f116"; }
+.flaticon-pie-chart:before { content: "\f117"; }
+.flaticon-placeholder:before { content: "\f118"; }
+.flaticon-printer:before { content: "\f119"; }
+.flaticon-reload:before { content: "\f11a"; }
+.flaticon-settings:before { content: "\f11b"; }
+.flaticon-share:before { content: "\f11c"; }
+.flaticon-share-1:before { content: "\f11d"; }
+.flaticon-star:before { content: "\f11e"; }
+.flaticon-success:before { content: "\f11f"; }
+.flaticon-upload:before { content: "\f120"; }
+.flaticon-upload-1:before { content: "\f121"; }
+    
+    $font-Flaticon-add-circular-outlined-button: "\f100";
+    $font-Flaticon-avatar: "\f101";
+    $font-Flaticon-back: "\f102";
+    $font-Flaticon-cancel: "\f103";
+    $font-Flaticon-chat: "\f104";
+    $font-Flaticon-copy: "\f105";
+    $font-Flaticon-dislike: "\f106";
+    $font-Flaticon-download: "\f107";
+    $font-Flaticon-download-1: "\f108";
+    $font-Flaticon-edit: "\f109";
+    $font-Flaticon-envelope: "\f10a";
+    $font-Flaticon-error: "\f10b";
+    $font-Flaticon-exit: "\f10c";
+    $font-Flaticon-folder: "\f10d";
+    $font-Flaticon-garbage: "\f10e";
+    $font-Flaticon-hand: "\f10f";
+    $font-Flaticon-heart: "\f110";
+    $font-Flaticon-house: "\f111";
+    $font-Flaticon-like: "\f112";
+    $font-Flaticon-magnifying-glass: "\f113";
+    $font-Flaticon-next: "\f114";
+    $font-Flaticon-next-1: "\f115";
+    $font-Flaticon-paper-plane: "\f116";
+    $font-Flaticon-pie-chart: "\f117";
+    $font-Flaticon-placeholder: "\f118";
+    $font-Flaticon-printer: "\f119";
+    $font-Flaticon-reload: "\f11a";
+    $font-Flaticon-settings: "\f11b";
+    $font-Flaticon-share: "\f11c";
+    $font-Flaticon-share-1: "\f11d";
+    $font-Flaticon-star: "\f11e";
+    $font-Flaticon-success: "\f11f";
+    $font-Flaticon-upload: "\f120";
+    $font-Flaticon-upload-1: "\f121";

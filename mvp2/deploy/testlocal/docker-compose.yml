@@ -12,3 +12,5 @@ mysql:
         - MYSQL_DATABASE=seekstock
     volumes:
         - /Users/rjarmstrong/data/mysql/test:/var/lib/mysql
+
+

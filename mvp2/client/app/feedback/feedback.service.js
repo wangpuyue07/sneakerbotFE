@@ -14,7 +14,7 @@
                 })
             },
             openFeedback : function(product){
-                console.log(product);
+
                 $uibModal.open({
                     templateUrl : 'feedback/feedbackForm.html',
                     controller: 'feedbackFormController',

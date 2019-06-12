@@ -1,13 +1,13 @@
-<a href="/">&lt; Back to feed</a>
+<a onclick="location.href='/'">&lt; Back to feed</a>
 
 <h3>{{ vm.product.description }}
     <small>{{ vm.product.sku }}</small>
 </h3>
 <p> {{ vm.product.category }}</p>
-<div class="pull-right">
+<!--<div class="pull-right">
     <button ng-if="vm.featureService.isEnabled('feedback')" class="btn btn-seekstock" href="#" data-ng-click="vm.openFeedback(vm.product)">Give Feedback</button>
     <button ng-if="vm.featureService.isEnabled('request')" class="btn btn-seekstock" href="#" data-ng-click="vm.openRequest(vm.product)">Request</button>
-</div>
+</div>-->
 
 <div class="row product">
     <div class="col-xs-2">
@@ -40,14 +40,14 @@
     </div>
 
 
-<div class="row">
+<!--<div class="row">
     <div class="col-xs-8 col-xs-offset-2">
         <div class="panel panel-default news" data-ng-repeat="activity in vm.activities">
             <div class="panel-body">
                 <div ng-switch="activity.action">
                     <div ng-switch-when="createdStaffFeedback">
 
-                        <!--data-ng-class="activity.read ? '' : 'unread'"-->
+                        &lt;!&ndash;data-ng-class="activity.read ? '' : 'unread'"&ndash;&gt;
                         <div class="media">
                             <div class="media-left">
                             </div>
@@ -119,5 +119,6 @@
     </div>
     <div class="col-xs-4">
     </div>
-</div>
+</div>-->
+    </div>
 
